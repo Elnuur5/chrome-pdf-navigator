@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+
+  "name": "PDF Sentence Navigator",
+
+  "version": "1.0",
+
+  "description": "Navigate PDF sentences using Tab and Shift+Tab",
+
+  "action": {
+    "default_title": "PDF Navigator"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "viewer.html",
+        "viewer.js",
+        "styles.css",
+        "modules/*",
+        "libs/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
